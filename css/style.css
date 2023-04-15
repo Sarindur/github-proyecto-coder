@@ -201,7 +201,7 @@ footer section div a img {
 
 
 /* mobile-last = max-width */
-@media (max-width: 519px) {
+@media (max-width: 576px) {
     .header {
         justify-content: center;
     }

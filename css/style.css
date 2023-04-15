@@ -33,6 +33,8 @@ footer section div a img {
 
 
 
+
+
 /* class */
 
 /* navegacion */
@@ -89,6 +91,11 @@ footer section div a img {
     width: 100%;
 }
 
+/* main carrusel */
+.carrusel{
+    width: 50%;
+    margin: auto;
+}
 
 /* inicia main de productos */
 
@@ -195,6 +202,7 @@ footer section div a img {
     display: flex;
     margin: 0 10px;
 }
+
 
 
 

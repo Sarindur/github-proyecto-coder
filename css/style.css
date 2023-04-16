@@ -34,7 +34,9 @@ footer section div a img {
     margin: 5px;
 }
 
-
+h2{
+    text-align: center;
+}
 
 
 
@@ -148,11 +150,54 @@ footer section div a img {
     min-height: 70vh;
 }
 
+.sec-informate{
+    box-sizing: border-box;
+    border: 1px solid rgb(10, 10, 10);
+   background-color: rgb(223, 127, 127);
+}
+
+.tintas-informate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.tintas-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px;
+    width: 500px;
+}
+
+.tintas-div img{
+    width: 400px;
+}
+
+.tintas-informate div{
+    max-width: 250px;
+}
+
+.p-flex{
+    display: flex;
+}
+
+
+.div-img{
+    display: flex;
+}
+
+.div-img img{
+    width: 600px;
+}
+
 .section-img{
     display: flex;
     width: 600px;
     height: 430px;
     margin: auto;
+    
 }
 
 .section-img img{
@@ -160,7 +205,7 @@ footer section div a img {
     flex-grow: 1;
     object-fit: cover;
     opacity: .8;
-    transition: .5s ease;
+    transition: .5s ease; 
 }
 
 .section-img img:hover{

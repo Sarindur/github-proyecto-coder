@@ -93,9 +93,12 @@ h2{
 
 }
 
+
 .main-inicio img {
     width: 100%;
 }
+
+
 
 /* main carrusel */
 .carrusel{
@@ -144,6 +147,12 @@ h2{
     min-height: 70vh;
 }
 
+.main-conocenos p{
+    max-width: 650px;
+    margin: auto;
+    padding: 15px;
+}
+
 
 
 .main-informate {
@@ -156,27 +165,16 @@ h2{
    background-color: rgb(223, 127, 127);
 }
 
-.tintas-informate{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;
-}
-
 .tintas-div{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    margin: 10px;
-    width: 500px;
+    flex-direction: column;
+    padding: 15px;
 }
 
-.tintas-div img{
-    width: 400px;
-}
-
-.tintas-informate div{
-    max-width: 250px;
+.tintas-div p{
+    max-width: 650px;
+    margin: auto;
 }
 
 .p-flex{
@@ -186,6 +184,7 @@ h2{
 
 .div-img{
     display: flex;
+    flex-direction: column;
 }
 
 .div-img img{

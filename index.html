@@ -17,18 +17,47 @@
 <body>
     <!-- inicia header-logo + barra de navegacion -->
     <header class="header">
-        <!-- logo de pagina -->
-        <a href="./index.html">
-            <img src="./img/logo/apple-touch-icon.png" alt="logo de pagina"></a>
-        <nav class="nav-flex">
 
-            <ul>
-                <li><a href="./index.html" id="inicio">Inicio</a></li>
-                <li><a href="./pages/conocenos.html">Conocenos</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/informate.html">Informate</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+        <a class="navbar-brand" href="./index.html">
+            <img src="./img/logo/apple-touch-icon.png" alt="logo de pagina">
+        </a>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark">
+            <div class="container-fluid">
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html" id="inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/informate.html">Informate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+
         </nav>
     </header>
     <!-- main-Contenido Principal -->
@@ -50,25 +79,30 @@
 
         <div id="carouselExampleFade" class="carousel slide carousel-fade carrusel" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://www.barberdts.com/uk/advice-hub/wp-content/uploads/2020/03/700x283-CoilMachineDiagramSpanish-1024x414.jpg" class="d-block w-100" alt="componentes de maquina para tatuar">
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.barberdts.com/uk/advice-hub/wp-content/uploads/2020/03/700x283-NeedleGuideSpanish-1024x414.jpg" class="d-block w-100" alt="tipos de agujas">
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.barberdts.com/uk/advice-hub/wp-content/uploads/2020/03/700x283-BugpinDiameterSpanish-1024x414.jpg" class="d-block w-100" alt="diametro de agujas">
-              </div>
+                <div class="carousel-item active">
+                    <img src="https://www.barberdts.com/uk/advice-hub/wp-content/uploads/2020/03/700x283-CoilMachineDiagramSpanish-1024x414.jpg"
+                        class="d-block w-100" alt="componentes de maquina para tatuar">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.barberdts.com/uk/advice-hub/wp-content/uploads/2020/03/700x283-NeedleGuideSpanish-1024x414.jpg"
+                        class="d-block w-100" alt="tipos de agujas">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.barberdts.com/uk/advice-hub/wp-content/uploads/2020/03/700x283-BugpinDiameterSpanish-1024x414.jpg"
+                        class="d-block w-100" alt="diametro de agujas">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
 
 
         <a href="./index.html#inicio">Volver Arriba</a>

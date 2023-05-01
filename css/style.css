@@ -19,6 +19,8 @@ a {
 
 h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 1px 2px 2px black, 0 0 25px rgb(116, 115, 115), 0 0 25px rgb(115, 115, 116);
+    text-align: center;
 }
 
 footer {
@@ -78,9 +80,9 @@ h2 {
 }
 
 
-.falso-body {
+/* .falso-body {
     background-color: rgb(156, 12, 12);
-}
+} */
 
 
 
@@ -117,33 +119,43 @@ h2 {
     min-height: 70vh;
     display: flex;
     flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
 
-.main-insumos button {
+
+.galeria{
     display: flex;
-    height: 50px;
-    width: 100px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px black, 0 6px 20px 0 black;
+    float: left;
+    width: 350px;
+    /* margin: auto; */
+    max-width: 350px;
 }
 
-.main-insumos div {
-    max-width: 250px;
+.galeria img{
+    width: 100%;
+    height: auto;
 }
 
+.galeria:hover{
+    border: 1px solid rgb(83, 82, 82);
+    transform: rotate(-3deg);
+}
 
+.div-text{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(233, 106, 106);
+}
 
-.tintas {
-    flex-direction: column;
-    display: flex;
-    height: 250px;
-    margin: 10px;
-    padding-bottom: 20px;
-    font-size: 15px;
-    color: rgb(255, 255, 255);
+.div-text button{
+    background-color: rgb(41, 40, 40);
+    color: #fffdfd;
 }
 
 /* cierra main de productos */
@@ -351,6 +363,9 @@ button {
     .header {
         justify-content: center;
     }
+    main{ 
+        justify-content: center;
+    }
 }
 
 @media (max-width: 576px) {
@@ -364,6 +379,10 @@ button {
         padding: 5px;
         font-size: 20px;
     }
+    .tintas{
+        overflow: auto;
+    }
+    
 
 
     .section-img {

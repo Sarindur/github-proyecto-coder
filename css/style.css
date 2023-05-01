@@ -388,6 +388,9 @@ button {
     .footer {
         justify-content: center;
     }
+    .footer div{
+        margin: auto;
+    }
 }
 
 @media (max-width: 576px) {

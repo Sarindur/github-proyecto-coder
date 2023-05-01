@@ -369,3 +369,25 @@ button {
     }
 
 }
+
+@media (max-width: 576px) {
+    .carrusel {
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .main-inicio {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+
+    .main-inicio h1,
+    p {
+        display: flex;
+        margin: 50px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+}
